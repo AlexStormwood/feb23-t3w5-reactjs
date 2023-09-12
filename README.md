@@ -2,15 +2,18 @@
 # feb23-t3w5-reactjs
 
 Goals:
-	- Intro to React 
-		- note on creating React apps 
-		- CRA vs Vite/others
-	- JSX
-		- JS vs JSX 
-			- differences to regular HTML 
-		- HTML blocks as variables 
-		- interpolating JS data into HTML 
-	- basic function components
+
+- Intro to React 
+	- note on creating React apps 
+	- CRA vs Vite/others
+
+- JSX
+	- JS vs JSX 
+		- differences to regular HTML 
+	- HTML blocks as variables 
+	- interpolating JS data into HTML 
+	
+- basic function components
 
 
 # Getting Started with Create React App
