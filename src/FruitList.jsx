@@ -21,14 +21,14 @@ let someFruit = [
 ]
   
 // Process someFruit and build an array of li tags 
-let fruitList = someFruit.map((fruit => {
+let listOfListTags = someFruit.map((fruit => {
 return <li>{fruit}</li>
 }));
 
 // Functions MUST return JSX, if you wanna use it as HTML
 // a.k.a in place of inline JSX:
 export default function FruitList(){
-	return fruitList;
+	return listOfListTags;
 }
 
 // module.exports = FruitList;
