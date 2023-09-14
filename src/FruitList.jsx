@@ -1,5 +1,7 @@
 import "./FruitList.css";
 
+import ListGroup from 'react-bootstrap/ListGroup';
+
 // Functions MUST return JSX, if you wanna use it as HTML
 // a.k.a in place of inline JSX:
 export default function FruitList(props){
@@ -10,9 +12,9 @@ export default function FruitList(props){
 	}
 
 	let listOfFruit = props.listToShow.map(fruit => {
-		return <li key={fruit}>
+		return <ListGroup.Item key={fruit}>
 			{fruit}
-		</li>
+		</ListGroup.Item>
 	});
 
 	return <span>

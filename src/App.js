@@ -6,12 +6,14 @@ import FruitList from './FruitList';
 
 // some comment here 
 
+import ListGroup from 'react-bootstrap/ListGroup';
 
 function App() {
   return (
     <div className="App">
       <h1>Hello world!</h1>
-      <ul>
+      {/* <ul> */}
+      <ListGroup>
         {/* Array of li tags with fruit names as contents */}
         {/* Use custom JSX element: */}
         <h1>Yellow fruits</h1>
@@ -31,7 +33,8 @@ function App() {
           <h4>Blue fruits are cool!</h4>
         </FruitList>
 
-      </ul>
+      {/* </ul> */}
+      </ListGroup>
     </div>
   );
 }
