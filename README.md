@@ -1,7 +1,7 @@
 
 # feb23-t3w5-reactjs
 
-Goals:
+Goals (Tuesday):
 
 - Intro to React 
 	- note on creating React apps 
@@ -14,6 +14,12 @@ Goals:
 	- interpolating JS data into HTML 
 	
 - basic function components
+
+Goals (Thursday):
+	- Component props 
+	- Component children 
+	- Conditional rendering 
+	- Styled components 
 
 
 # Getting Started with Create React App
